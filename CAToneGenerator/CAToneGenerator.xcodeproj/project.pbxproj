@@ -1,0 +1,244 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA05ABD815AA8DBD00B18F32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA05ABD715AA8DBD00B18F32 /* Foundation.framework */; };
+		EA05ABDB15AA8DBD00B18F32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA05ABDA15AA8DBD00B18F32 /* main.m */; };
+		EA05ABDF15AA8DBD00B18F32 /* CAToneGenerator.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EA05ABDE15AA8DBD00B18F32 /* CAToneGenerator.1 */; };
+		EA05ABE815AA957F00B18F32 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA05ABE715AA957F00B18F32 /* CoreAudio.framework */; };
+		EA05ABEA15AA958500B18F32 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA05ABE915AA958500B18F32 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EA05ABD115AA8DBD00B18F32 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				EA05ABDF15AA8DBD00B18F32 /* CAToneGenerator.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EA05ABD315AA8DBD00B18F32 /* CAToneGenerator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CAToneGenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA05ABD715AA8DBD00B18F32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA05ABDA15AA8DBD00B18F32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA05ABDD15AA8DBD00B18F32 /* CAToneGenerator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CAToneGenerator-Prefix.pch"; sourceTree = "<group>"; };
+		EA05ABDE15AA8DBD00B18F32 /* CAToneGenerator.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CAToneGenerator.1; sourceTree = "<group>"; };
+		EA05ABE515AA957100B18F32 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		EA05ABE715AA957F00B18F32 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		EA05ABE915AA958500B18F32 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA05ABD015AA8DBD00B18F32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA05ABEA15AA958500B18F32 /* AudioToolbox.framework in Frameworks */,
+				EA05ABE815AA957F00B18F32 /* CoreAudio.framework in Frameworks */,
+				EA05ABD815AA8DBD00B18F32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA05ABC815AA8DBD00B18F32 = {
+			isa = PBXGroup;
+			children = (
+				EA05ABD915AA8DBD00B18F32 /* CAToneGenerator */,
+				EA05ABD615AA8DBD00B18F32 /* Frameworks */,
+				EA05ABD415AA8DBD00B18F32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA05ABD415AA8DBD00B18F32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA05ABD315AA8DBD00B18F32 /* CAToneGenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA05ABD615AA8DBD00B18F32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA05ABE915AA958500B18F32 /* AudioToolbox.framework */,
+				EA05ABE715AA957F00B18F32 /* CoreAudio.framework */,
+				EA05ABE515AA957100B18F32 /* CoreAudioKit.framework */,
+				EA05ABD715AA8DBD00B18F32 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA05ABD915AA8DBD00B18F32 /* CAToneGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				EA05ABDA15AA8DBD00B18F32 /* main.m */,
+				EA05ABDE15AA8DBD00B18F32 /* CAToneGenerator.1 */,
+				EA05ABDC15AA8DBD00B18F32 /* Supporting Files */,
+			);
+			path = CAToneGenerator;
+			sourceTree = "<group>";
+		};
+		EA05ABDC15AA8DBD00B18F32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA05ABDD15AA8DBD00B18F32 /* CAToneGenerator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA05ABD215AA8DBD00B18F32 /* CAToneGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA05ABE215AA8DBD00B18F32 /* Build configuration list for PBXNativeTarget "CAToneGenerator" */;
+			buildPhases = (
+				EA05ABCF15AA8DBD00B18F32 /* Sources */,
+				EA05ABD015AA8DBD00B18F32 /* Frameworks */,
+				EA05ABD115AA8DBD00B18F32 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAToneGenerator;
+			productName = CAToneGenerator;
+			productReference = EA05ABD315AA8DBD00B18F32 /* CAToneGenerator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA05ABCA15AA8DBD00B18F32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = EA05ABCD15AA8DBD00B18F32 /* Build configuration list for PBXProject "CAToneGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA05ABC815AA8DBD00B18F32;
+			productRefGroup = EA05ABD415AA8DBD00B18F32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA05ABD215AA8DBD00B18F32 /* CAToneGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA05ABCF15AA8DBD00B18F32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA05ABDB15AA8DBD00B18F32 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA05ABE015AA8DBD00B18F32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EA05ABE115AA8DBD00B18F32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EA05ABE315AA8DBD00B18F32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CAToneGenerator/CAToneGenerator-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA05ABE415AA8DBD00B18F32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CAToneGenerator/CAToneGenerator-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA05ABCD15AA8DBD00B18F32 /* Build configuration list for PBXProject "CAToneGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA05ABE015AA8DBD00B18F32 /* Debug */,
+				EA05ABE115AA8DBD00B18F32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA05ABE215AA8DBD00B18F32 /* Build configuration list for PBXNativeTarget "CAToneGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA05ABE315AA8DBD00B18F32 /* Debug */,
+				EA05ABE415AA8DBD00B18F32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA05ABCA15AA8DBD00B18F32 /* Project object */;
+}
