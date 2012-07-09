@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'CAMetadata' target in the 'CAMetadata' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

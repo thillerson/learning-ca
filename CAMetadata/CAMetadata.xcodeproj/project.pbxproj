@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA05ABB715AA666600B18F32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA05ABB615AA666600B18F32 /* Foundation.framework */; };
+		EA05ABBA15AA666600B18F32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA05ABB915AA666600B18F32 /* main.m */; };
+		EA05ABBE15AA666600B18F32 /* CAMetadata.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EA05ABBD15AA666600B18F32 /* CAMetadata.1 */; };
+		EA05ABC515AA688600B18F32 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA05ABC415AA688600B18F32 /* CoreAudio.framework */; };
+		EA05ABC715AA6DC400B18F32 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA05ABC615AA6DC300B18F32 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EA05ABB015AA666600B18F32 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				EA05ABBE15AA666600B18F32 /* CAMetadata.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EA05ABB215AA666600B18F32 /* CAMetadata */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CAMetadata; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA05ABB615AA666600B18F32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA05ABB915AA666600B18F32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA05ABBC15AA666600B18F32 /* CAMetadata-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CAMetadata-Prefix.pch"; sourceTree = "<group>"; };
+		EA05ABBD15AA666600B18F32 /* CAMetadata.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CAMetadata.1; sourceTree = "<group>"; };
+		EA05ABC415AA688600B18F32 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		EA05ABC615AA6DC300B18F32 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA05ABAF15AA666600B18F32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA05ABC715AA6DC400B18F32 /* AudioToolbox.framework in Frameworks */,
+				EA05ABC515AA688600B18F32 /* CoreAudio.framework in Frameworks */,
+				EA05ABB715AA666600B18F32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA05ABA715AA666600B18F32 = {
+			isa = PBXGroup;
+			children = (
+				EA05ABB815AA666600B18F32 /* CAMetadata */,
+				EA05ABB515AA666600B18F32 /* Frameworks */,
+				EA05ABB315AA666600B18F32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA05ABB315AA666600B18F32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA05ABB215AA666600B18F32 /* CAMetadata */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA05ABB515AA666600B18F32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA05ABC615AA6DC300B18F32 /* AudioToolbox.framework */,
+				EA05ABC415AA688600B18F32 /* CoreAudio.framework */,
+				EA05ABB615AA666600B18F32 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA05ABB815AA666600B18F32 /* CAMetadata */ = {
+			isa = PBXGroup;
+			children = (
+				EA05ABB915AA666600B18F32 /* main.m */,
+				EA05ABBD15AA666600B18F32 /* CAMetadata.1 */,
+				EA05ABBB15AA666600B18F32 /* Supporting Files */,
+			);
+			path = CAMetadata;
+			sourceTree = "<group>";
+		};
+		EA05ABBB15AA666600B18F32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA05ABBC15AA666600B18F32 /* CAMetadata-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA05ABB115AA666600B18F32 /* CAMetadata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA05ABC115AA666600B18F32 /* Build configuration list for PBXNativeTarget "CAMetadata" */;
+			buildPhases = (
+				EA05ABAE15AA666600B18F32 /* Sources */,
+				EA05ABAF15AA666600B18F32 /* Frameworks */,
+				EA05ABB015AA666600B18F32 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAMetadata;
+			productName = CAMetadata;
+			productReference = EA05ABB215AA666600B18F32 /* CAMetadata */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA05ABA915AA666600B18F32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Tack Mobile, LLC";
+			};
+			buildConfigurationList = EA05ABAC15AA666600B18F32 /* Build configuration list for PBXProject "CAMetadata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA05ABA715AA666600B18F32;
+			productRefGroup = EA05ABB315AA666600B18F32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA05ABB115AA666600B18F32 /* CAMetadata */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA05ABAE15AA666600B18F32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA05ABBA15AA666600B18F32 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA05ABBF15AA666600B18F32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EA05ABC015AA666600B18F32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EA05ABC215AA666600B18F32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CAMetadata/CAMetadata-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA05ABC315AA666600B18F32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CAMetadata/CAMetadata-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA05ABAC15AA666600B18F32 /* Build configuration list for PBXProject "CAMetadata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA05ABBF15AA666600B18F32 /* Debug */,
+				EA05ABC015AA666600B18F32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA05ABC115AA666600B18F32 /* Build configuration list for PBXNativeTarget "CAMetadata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA05ABC215AA666600B18F32 /* Debug */,
+				EA05ABC315AA666600B18F32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA05ABA915AA666600B18F32 /* Project object */;
+}
